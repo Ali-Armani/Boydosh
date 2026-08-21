@@ -1,1 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        to left,
+        #ffd6e7 0%,
+        #ffe8f1 35%,
+        #ffffff 67%
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
 
