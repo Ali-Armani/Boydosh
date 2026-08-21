@@ -73,3 +73,39 @@ button {
 
 }
 
+
+/* Hearts & Flowers */
+
+.heart,
+.flower {
+
+    position: absolute;
+
+    pointer-events: none;
+
+    animation: float 10s linear infinite;
+
+}
+
+
+.heart {
+
+    font-size: 25px;
+
+}
+
+
+.flower {
+
+    font-size: 35px;
+
+    animation-duration: 12s;
+
+}
+
+.background-elements {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 1;
+}
